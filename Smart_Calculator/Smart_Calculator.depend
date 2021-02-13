@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1613214008 source:c:\users\training\documents\smart_calculator\smart_calculator\armstrong.c
+
+1613217944 source:c:\users\training\documents\smart_calculator\smart_calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	"unity.h"
+	"Armstrong.h"
+
+1613213988 c:\users\training\documents\smart_calculator\smart_calculator\armstrong.h
+	<stdio.h>
+	<stdlib.h>
+
+1613212197 source:c:\users\training\documents\smart_calculator\smart_calculator\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1613212197 c:\users\training\documents\smart_calculator\smart_calculator\unity.h
+	"unity_internals.h"
+
+1613212197 c:\users\training\documents\smart_calculator\smart_calculator\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1613215549 source:c:\users\training\documents\smart_calculator\smart_calculator\test_armstrong.c
+	"unity.h"
+	"unity_internals.h"
+	"Armstrong.h"
+	"test_armstrong.h"
+
+1613213235 c:\users\training\documents\smart_calculator\smart_calculator\test_armstrong.h
+
+1613217686 source:c:\users\training\documents\smart_calculator\smart_calculator\palindrome.c
+
+1613218533 source:c:\users\training\documents\smart_calculator\smart_calculator\test_palindrome.c
+	"unity.h"
+	"unity_internals.h"
+	"palindrome.h"
+	"test_palindrome.h"
+
+1613217944 c:\users\training\documents\smart_calculator\smart_calculator\palindrome.h
+	<stdio.h>
+	<stdlib.h>
+
+1613218489 c:\users\training\documents\smart_calculator\smart_calculator\test_palindrome.h
+

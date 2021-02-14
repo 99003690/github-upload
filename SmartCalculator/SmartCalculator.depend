@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1613328676 source:c:\users\hp\desktop\unittesting\smartcalculator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdio.h>
+	<conio.h>
+	<math.h>
+

@@ -1,5 +1,20 @@
 <circuit noLinStep="10" reactStep="50" type="simulide_0.1" animate="0" noLinAcc="5" speed="1000000">
  
+Node-43: 
+<item labelx="-16" id="Node-43" x="-572" labely="-24" labelrot="0" objectName="Node-43" valLabRot="0" vflip="1" Show_id="false" valLabely="0" y="-188" itemtype="Node" valLabelx="0" rotation="0" hflip="1"/>
+ 
+Ground-41: 
+<item labelx="-16" id="Ground-41" x="-572" labely="-24" labelrot="0" objectName="Ground-41" valLabRot="0" vflip="1" Show_id="false" valLabely="0" y="-132" itemtype="Ground" valLabelx="0" rotation="0" hflip="1"/>
+ 
+Push-38: 
+<item labelx="-16" id="Push-38" x="-364" labely="-24" labelrot="0" objectName="Push-38" valLabRot="0" vflip="1" Show_id="false" valLabely="0" y="-516" itemtype="Push" valLabelx="0" rotation="0" hflip="1"/>
+ 
+Resistor-35: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Resistor-35" x="-268" valLabely="6" vflip="1" Unit=" O" valLabelx="-16" rotation="0" labelx="-12" Show_res="true" labely="-24" valLabRot="0" Resistance="100" y="-188" itemtype="Resistor" id="Resistor-35"/>
+ 
+Led-34: 
+<item labelrot="0" Threshold="2.3999999999999999" Show_id="false" hflip="1" objectName="Led-34" x="-348" valLabely="0" vflip="1" valLabelx="0" rotation="-180" labelx="-16" labely="-24" valLabRot="0" Resistance="0.59999999999999998" Color="0" y="-188" itemtype="Led" id="Led-34" MaxCurrent="0.029999999999999999" Grounded="false"/>
+ 
 Node-11: 
 <item labelx="-16" id="Node-11" x="-444" labely="-24" labelrot="0" objectName="Node-11" valLabRot="0" vflip="1" Show_id="false" valLabely="0" y="-300" itemtype="Node" valLabelx="0" rotation="0" hflip="1"/>
  
@@ -68,6 +83,24 @@ Connector-30:
  
 Connector-31: 
 <item labelrot="0" Show_id="false" hflip="1" objectName="Connector-31" startpinid="Node-11-2" pointList="-444,-300,-372,-300" x="-444" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="Led-6-rPin" y="-300" itemtype="Connector" id="Connector-31" enodeid="Circ_eNode-21"/>
+ 
+Connector-36: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-36" startpinid="Led-34-lPin" pointList="-332,-188,-284,-188" x="-332" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="Resistor-35-lPin" y="-188" itemtype="Connector" id="Connector-36" enodeid="enode-36"/>
+ 
+Connector-37: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-37" startpinid="Resistor-35-rPin" pointList="-252,-188,-204,-188,-204,-276,-188,-276" x="-252" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="atmega328-5-PD6" y="-188" itemtype="Connector" id="Connector-37" enodeid="enode-37"/>
+ 
+Connector-40: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-40" startpinid="Push-38-lnod" pointList="-380,-516,-628,-516,-628,-188,-572,-188" x="-380" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="Node-43-0" y="-516" itemtype="Connector" id="Connector-40" enodeid="enode-42"/>
+ 
+Connector-42: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-42" startpinid="Ground-41-Gnd" pointList="-572,-148,-572,-188" x="-572" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="Node-43-1" y="-148" itemtype="Connector" id="Connector-42" enodeid="enode-42"/>
+ 
+Connector-44: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-44" startpinid="Node-43-2" pointList="-572,-188,-364,-188" x="-572" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="Led-34-rPin" y="-188" itemtype="Connector" id="Connector-44" enodeid="enode-42"/>
+ 
+Connector-54: 
+<item labelrot="0" Show_id="false" hflip="1" objectName="Connector-54" startpinid="Push-38-rnod" pointList="-348,-516,-44,-516,-44,-324,-148,-324" x="-348" valLabely="0" vflip="1" valLabelx="0" rotation="0" labelx="-16" labely="-24" valLabRot="0" endpinid="atmega328-5-PC0" y="-516" itemtype="Connector" id="Connector-54" enodeid="enode-54"/>
  
 PlotterWidget-32: 
 <item mouseTracking="false" windowModified="false" windowTitle="" minimumHeight="200" rect="" geometry="" y="0" normalGeometry="" height="200" childrenRegion="" maximumSize="" sizeIncrement="" frameGeometry="" isActiveWindow="true" autoFillBackground="false" windowOpacity="1" MinVolt="-500" visible="false" modal="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" minimumSizeHint="" inputMethodHints="0" objectName="PlotterWidget-32" sizeHint="" itemtype="Plotter" windowModality="0" maximized="false" cursor="" maximumWidth="1000" x="0" accessibleName="" frameSize="" windowIcon="" maximumHeight="200" windowFilePath="" childrenRect="" acceptDrops="false" palette="" pos="" size="" styleSheet="" focusPolicy="0" layoutDirection="0" minimized="false" fullScreen="false" windowIconText="" statusTip="" enabled="true" baseSize="" contextMenuPolicy="1" whatsThis="" toolTipDuration="-1" minimumWidth="200" width="200" toolTip="" updatesEnabled="true" focus="false" accessibleDescription="" MaxVolt="500" sizePolicy="" locale="" minimumSize=""/>
